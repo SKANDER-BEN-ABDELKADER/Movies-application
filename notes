@@ -1,0 +1,18 @@
+appwrite: open source backend
+
+// props (properties): its a way to pass data from parent to child component
+// STATE: its a way to store data in a component
+// setSTATE: its a way to update the state of a component
+// useState: its a way to add state to a functional component
+// useEffect: its a way to run code when the component is rendered
+// useRef: its a way to store a reference to a DOM element
+// useContext: its a way to pass data through the component tree without having to pass props down manually at every level
+// useReducer: its a way to manage the state of a component
+// useMemo: its a way to optimize the performance of a component by memoizing the result of a function
+
+# <button onClick={() => setHasLiked(value:true)}>
+# {HasLiked ? 'Liked' : 'Like'}
+# </button>
+# ==> the initiale value of setHasLiked is false and it will be true when we click on the button "onClick",
+# Liked and Like are the the text on the button when HasLiked is true the text will be Liked otherwise it will be Like.
+# Or we can simply write "onClick={() => setHasLiked(!HasLiked)}" to switch the value
